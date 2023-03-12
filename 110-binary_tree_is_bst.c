@@ -32,10 +32,5 @@ int binary_tree_is_bst(const binary_tree_t *tree)
 	if (tree == NULL)
 		return (0);
 	return (is_bst_helper(tree, INT_MIN, INT_MAX));
-<<<<<<< HEAD
-	
-}
-=======
 
 }
->>>>>>> f2881296b715da9954f77af90217d58b1611304a
